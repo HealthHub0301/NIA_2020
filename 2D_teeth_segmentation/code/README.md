@@ -6,4 +6,4 @@
 
 Mask RCNN : <https://github.com/matterport/Mask_RCNN>
 
-Yolo V3 : <https://github.com/ultralytics/yolov3>
+Yolo V3 : <https://github.com/eriklindernoren/PyTorch-YOLOv3>
