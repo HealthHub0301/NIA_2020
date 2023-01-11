@@ -7,6 +7,7 @@ Training directories have sub directories which contain training samples.
 Each subdirectory should have dicom slices and .json annotation for that samples.
 Similar structure is addopted for test dataset.
 
+```
 ----NIA 2020:
 	│
 	├── Training
@@ -32,6 +33,7 @@ Similar structure is addopted for test dataset.
 	│   └── 0903
 	│   └── 0904
 	│   └── .......
+```
 
 # Running training file.
 Training file will train model on training samples and save left or right weights for model depending on parameter given at input.
