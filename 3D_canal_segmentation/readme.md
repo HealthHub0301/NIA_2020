@@ -53,6 +53,7 @@ Inference file will save a json file name 0901 with annotations for mask and wil
 3D segmentation from CGIP
 
 Inference(inference.bat) : 
+```
 @ECHO off
 SET prj_name=%1
 
@@ -73,8 +74,10 @@ SET python_venv=D:\Anaconda3\envs\Teeth-Pano\python.exe
 :: Evaluate
 %python_venv% eval.py		--data_dir %data_path%^
 							--result_dir %dst%
-							
+```
+
 Train(train.bat):
+```
 @ECHO off
 SET prj_name=%1
 
@@ -100,5 +103,4 @@ SET python_venv=D:\Anaconda3\envs\Teeth-Pano\python.exe
 						--batch_size 5^
 						--backbone dla^
 						--use_center
-						
-						
+```				
